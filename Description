@@ -42,3 +42,13 @@ Enter Account Number: 101
 Enter amount to deposit: 500
 Deposited: 500.0 | New Balance: 5500.0
 
+--- Menu ---
+1. Deposit
+2. Withdraw
+3. Display Account
+4. Exit
+Enter choice: 2
+Enter Account Number: 102
+Enter amount to withdraw: 1000
+Withdrew: 1000.0 | New Balance: 2000.0
+
