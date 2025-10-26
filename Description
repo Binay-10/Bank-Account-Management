@@ -1,0 +1,29 @@
+# Bank Account Management System in Java
+
+A **simple Bank Account Management System** implemented in Java using **Encapsulation**, **Constructors**, and **Arrays**. This project simulates basic banking operations, allowing users to manage multiple accounts and perform transactions in a console-based environment.
+
+---
+
+## Features
+
+- **Encapsulation:** All account details (account number, holder name, balance) are private with public methods to control access.  
+- **Constructors:** Initialize accounts with custom details for easy setup.  
+- **Arrays:** Efficiently manage multiple accounts in a single structure.  
+- **Banking Operations:**
+  - Deposit money into any account.
+  - Withdraw money from an account with balance verification.
+  - Display account information, including current balance.
+- **Interactive Menu:** Users can repeatedly perform operations until they choose to exit.  
+- **Input Validation:** Ensures correct account selection and prevents overdrawing.
+
+---
+
+## How It Works
+
+1. Create multiple `BankAccount` objects stored in an array.  
+2. Show a menu with options: deposit, withdraw, display account, or exit.  
+3. Users input their account number to select the correct account.  
+4. Perform the requested operation (deposit, withdraw, display).  
+5. Update account balances and show results.  
+6. Loop until the user exits.
+
