@@ -27,3 +27,18 @@ A **simple Bank Account Management System** implemented in Java using **Encapsul
 5. Update account balances and show results.  
 6. Loop until the user exits.
 
+---
+
+## Example Usage
+
+```text
+--- Menu ---
+1. Deposit
+2. Withdraw
+3. Display Account
+4. Exit
+Enter choice: 1
+Enter Account Number: 101
+Enter amount to deposit: 500
+Deposited: 500.0 | New Balance: 5500.0
+
