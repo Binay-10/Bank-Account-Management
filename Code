@@ -58,3 +58,36 @@ public class SimpleBankApp {
             int accNo = sc.nextInt(); 
             BankAccount selectedAccount = null; 
  
+
+            // Find account directly here 
+            for (BankAccount acc : accounts) { 
+                if (acc.getAccountNumber() == accNo) { 
+                    selectedAccount = acc; 
+                    break; 
+                } 
+            } 
+            if (selectedAccount == null) { 
+                System.out.println("Account not found!"); 
+                continue; 
+            } 
+            switch (choice) { 
+                case 1: 
+                    System.out.print("Enter amount to deposit: "); 
+                    double dep = sc.nextDouble(); 
+                    selectedAccount.deposit(dep); 
+                    break; 
+                case 2: 
+                    System.out.print("Enter amount to withdraw: "); 
+                    double wit = sc.nextDouble(); 
+                    selectedAccount.withdraw(wit); 
+                    break; 
+                case 3: 
+                    selectedAccount.display(); 
+                    break; 
+                default: 
+                    System.out.println("Invalid choice!"); 
+            } 
+        } 
+        sc.close(); 
+    } 
+} 
